@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "FastAPI Debug",
+            "type": "debugpy",
+            "request": "launch",
+            "python": "C:/Users/lenovo/Desktop/Nouveau dossier (2)/agences_location_voitures/my-car-rental-project/backend/venv/Scripts/python.exe",
+            "module": "uvicorn",
+            "args": [
+                "app.main:app",
+                "--host", "127.0.0.1",
+                "--port", "8000",
+                "--reload"
+            ],
+            "env": {
+                "PYTHONPATH": "C:/Users/lenovo/Desktop/Nouveau dossier (2)/agences_location_voitures/my-car-rental-project/backend"
+            }
+        }
+    ]
+}
